@@ -1,0 +1,94 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add instrall
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\Luka\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Luka\AppData\Local\Programs\Python\Python37\;C:\Users\Luka\AppData\Local\Microsoft\WindowsApps;C:\Users\Luka\AppData\Roaming\npm;C:\Users\Luka\AppData\Local\Yarn\bin;C:\Ruby26-x64\bin;C:\Ruby26-x64\;C:\Users\Luka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Luka\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.21.0
+
+Node version: 
+  12.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/instrall: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66047:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140622:22)
+      at Request.emit (events.js:209:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141594:10)
+      at Request.emit (events.js:209:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141516:12)
+      at Object.onceWrapper (events.js:297:20)
+      at IncomingMessage.emit (events.js:214:15)
+      at endReadableNT (_stream_readable.js:1178:12)
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+npm manifest: 
+  {
+    "name": "myApp",
+    "version": "0.0.1",
+    "author": "Luka Lah",
+    "homepage": "https://ionicframework.com/",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^7.2.2",
+      "@angular/core": "^7.2.2",
+      "@angular/forms": "^7.2.2",
+      "@angular/http": "^7.2.2",
+      "@angular/platform-browser": "^7.2.2",
+      "@angular/platform-browser-dynamic": "^7.2.2",
+      "@angular/router": "^7.2.2",
+      "@ionic-native/core": "^5.0.0",
+      "@ionic-native/splash-screen": "^5.0.0",
+      "@ionic-native/status-bar": "^5.0.0",
+      "@ionic/angular": "^4.1.0",
+      "@ionic/storage": "^2.2.0",
+      "core-js": "^2.5.4",
+      "rxjs": "~6.3.3",
+      "zone.js": "~0.8.29"
+    },
+    "devDependencies": {
+      "@angular-devkit/architect": "~0.12.3",
+      "@angular-devkit/build-angular": "~0.13.0",
+      "@angular-devkit/core": "~7.2.3",
+      "@angular-devkit/schematics": "~7.2.3",
+      "@angular/cli": "~7.3.1",
+      "@angular/compiler": "~7.2.2",
+      "@angular/compiler-cli": "~7.2.2",
+      "@angular/language-service": "~7.2.2",
+      "@ionic/angular-toolkit": "~1.4.0",
+      "@types/node": "~10.14.2",
+      "@types/jasmine": "~2.8.8",
+      "@types/jasminewd2": "~2.0.3",
+      "codelyzer": "~4.5.0",
+      "jasmine-core": "~2.99.1",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~3.1.4",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-coverage-istanbul-reporter": "~2.0.1",
+      "karma-jasmine": "~1.1.2",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.4.0",
+      "ts-node": "~8.0.0",
+      "tslint": "~5.12.0",
+      "typescript": "~3.1.6"
+    },
+    "description": "An Ionic project"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
