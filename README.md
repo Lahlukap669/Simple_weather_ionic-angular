@@ -1,7 +1,7 @@
 # Simple_weather_ionic-angular
 Simple weather app based on ionic 5 and angular 7 made for android. It is using weatherstack API to read weather.
 
-<img src="src/assets/vreme.jpg" width="270" height="450"/>   <img src="src/assets/domov.jpg" width="270" height="450"/>   <img src="src/assets/meni.jpg" width="270" height="450"/>
+<img src="src/assets/vreme.jpg" width="280" height="450"/>   <img src="src/assets/domov.jpg" width="280" height="450"/>   <img src="src/assets/meni.jpg" width="280" height="450"/>
 
 
 ## Getting started
